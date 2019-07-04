@@ -1,8 +1,15 @@
+# Visual Studio Code files
+.vscode/
+
 # Unversioned project files
 private/
 
 # Firmware build files
 firmware/bin/*
+firmware/**/*.o
+
+# Decoder Python caches
+decoder/**/__pycache__/
 
 # Dummy file to keep folders versioned
 !.gitkeep
